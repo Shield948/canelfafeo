@@ -56,7 +56,9 @@ if(strpos($message, "!bin") === 0){
 🏦Bank: $bank
 🌎Country: $country $flag
 💳Type:$type
-📌Checked By @$username ***");
+📌Checked By @$username
+♦Created By: juanchivox54654@dnmx.org✉️ ***");
+
 
     }
 else {
