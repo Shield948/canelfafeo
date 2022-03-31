@@ -50,6 +50,7 @@ if(strpos($message, "!bin") === 0){
 
     if ($result1 == true) {
     send_message($chat_id,$message_id, "***✅ Valid BIN
+♦Created By: juanchivox54654@dnmx.org✉️
 💎Bin: $bin
 💳Brand: $brand
 💳Level: $level
