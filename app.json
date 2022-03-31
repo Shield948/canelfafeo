@@ -7,9 +7,8 @@
         "Checker",
         "Bot"
     ],
-    "website": "https://www.cyberindonesia001.xyz",
-    "repository": "https://github.com/zYxDevs/BinCheckerBot",
-    "success_url": "https://t.me/SpreadNetworks",
+    "repository": "https://github.com/ierfeioq/canelfafeo",
+    "success_url": "https://t.me/referenciasRedHoodPRO",
     "env": {
         "API_TOKEN": {
             "description": "API Token , get it from @BotFather"
