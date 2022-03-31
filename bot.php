@@ -57,7 +57,7 @@ if(strpos($message, "!bin") === 0){
 🌎Country: $country $flag
 💳Type:$type
 📌Checked By @$username ***");
-♦Created By: juanchivox54654@dnmx.org✉️
+
     }
 else {
     send_message($chat_id,$message_id, "***Enter Valid BIN***");
