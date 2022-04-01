@@ -19,7 +19,6 @@ Test Bot: [Bin Checker Bot](http://t.me/Checadordebinstest_bot)
 ```
 ✔ Tested on Heroku
 ✔ Tested on 000webhost
-⚠ Warn: Still not Tested on Railway!
 ```
 
 **Setup Webhook**<br>
