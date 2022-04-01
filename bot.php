@@ -12,7 +12,7 @@
     $start_msg = $_ENV['START_MSG']; 
 
 if($message == "/start"){
-    send_message($chat_id,$message_id, "***Hi $firstname \nUse .bin xxxxxx to Check BIN \n$start_msg***");
+    send_message($chat_id,$message_id, "***Hi $firstname \nUse .bin xxxxxx to Check BIN \n💳Donate Paypal https://www.paypal.com/paypalme/Acuevazdiaz💳\n$start_msg***");
 }
 
 //Bin Lookup
