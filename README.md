@@ -38,3 +38,4 @@ Other:
 ## 💰 Support me
 
 - <a href="https://www.paypal.com/paypalme/Acuevazdiaz"><img src="https://img.shields.io/badge/Paypal-Donate-lightgreen?logo=paypal"/></a>
+- <a href="OIFJEWP9JF90WEFJ0WFJ99WE0HFIWENW32"><img src="https://w7.pngwing.com/pngs/65/309/png-transparent-bitcoin-com-cryptocurrency-logo-zazzle-bitcoin-text-trademark-logo.png"/></a>
