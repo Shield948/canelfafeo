@@ -12,7 +12,7 @@
     $start_msg = $_ENV['START_MSG']; 
 
 if($message == "/start"){
-    send_message($chat_id,$message_id, "***Hi $firstname \nUse .bin xxxxxx to Check BIN \n💳Donate Paypal https://www.paypal.com/paypalme/Acuevazdiaz💳\n$start_msg***");
+    send_message($chat_id,$message_id, "***Hi $firstname \nUse .bin xxxxxx to Check BIN \nSupport: juanchivox54654@dnmx.org\n💳Donate Paypal https://www.paypal.com/paypalme/Acuevazdiaz💳\n$start_msg***");
 }
 
 //Bin Lookup
@@ -53,9 +53,9 @@ if(strpos($message, ".bin") === 0){
 💎Bin: $bin
 💳Brand: $brand
 💳Level: $level
+💳Type:$type
 🏦Bank: $bank
 🌎Country: $country $flag
-💳Type:$type
 📌Checked By @$username
 ♦Created By: juanchivox54654@dnmx.org✉️ ***");
 
