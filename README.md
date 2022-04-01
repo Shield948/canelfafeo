@@ -1,6 +1,6 @@
 ## BIN Checker Bot
 
-Test Bot: [Bin Checker Bot](https://t.me/phpBinBot)
+Test Bot: [Bin Checker Bot](http://t.me/Checadordebinstest_bot)
 
 ## Env
 
@@ -11,9 +11,6 @@ Test Bot: [Bin Checker Bot](https://t.me/phpBinBot)
 
 ### Heroku
 [![Deploy on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ierfeioq/canelfafeo)
-
-### Railway
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2FzYxDevs%2FBinCheckerBot&envs=API_TOKEN%2CSTART_MSG&API_TOKENDesc=Your+bot+token.&START_MSGDesc=Your+custom+start+message.&referralCode=AsunaRobot)
 
 ### 000webhost
 [![Deploy on 000webhost](https://github.com/CyberID-Ltd/zYxDevs-Profile-Requirements/blob/main/000webhost-logo.svg)](https://www.000webhost.com)
@@ -36,7 +33,7 @@ Other:
 
 ## Command
 
-`!bin <Your-xxxxxx-Bin>`
+`.bin <Your-xxxxxx-Bin>`
 
 ## 💰 Support me
 
