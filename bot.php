@@ -31,11 +31,12 @@ $config['timeZone'] =  $_ENV['TIMEZONE'];
 
 
 if($message == "/start"){
-    send_message($chat_id,$message_id, "***Hi $firstname \nUse .bin xxxxxx to Check BIN \nSupport: juanchivox54654@dnmx.org\n$start_msg***");
+    send_message($chat_id,$message_id, "***Hi $firstname \nUse .bin, /bin xxxxxx to Check BIN \nSupport: juanchivox54654@dnmx.org\n$start_msg***");
 }
 
 //Bin Lookup
 if(strpos($message, ".bin") === 0){
+if(strpos($message, "/bin") === 0){
     $bin = substr($message, 5);
     $curl = curl_init();
     curl_setopt_array($curl, [
