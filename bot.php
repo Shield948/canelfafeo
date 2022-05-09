@@ -83,6 +83,7 @@ if(strpos($message, ".bin") === 0){
 🏦Bank: $bank
 🌎Country: $country $flag
 Checked By ---» @$username
+USER ID: ---» $id
 ♦Bot By ---» juanchivox54654@dnmx.org✉️ ***");
  
         
