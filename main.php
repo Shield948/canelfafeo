@@ -1,5 +1,5 @@
 <?php
-include __DIR__."/modules/bot.php";
+include __DIR__."/modules/bin.php";
 
 date_default_timezone_set($config['timeZone']);
 
