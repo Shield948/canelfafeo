@@ -1,4 +1,5 @@
 <?php
+
     date_default_timezone_set("America/Monterrey");
     //Data From Webhook
     $content = file_get_contents("php://input");
@@ -10,6 +11,8 @@
     $username = $update["message"]["from"]["username"];
     $firstname = $update["message"]["from"]["first_name"];
     $start_msg = $_ENV['START_MSG']; 
+    $TIME = date("h:i:sa");
+    $DATE = date("d-m-Y");
 /*
 |--------------------------------------------------------------------------
 | Timezone
