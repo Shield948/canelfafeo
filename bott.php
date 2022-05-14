@@ -1,5 +1,5 @@
 <?php
-include __DIR__."/modules/admin.php";
+include __DIR__."/modules/bot.php";
 
 //////////////===[START]===//////////////
 
