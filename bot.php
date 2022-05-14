@@ -76,8 +76,8 @@ if(strpos($message, ".bin") === 0){
 💳Type: $type
 🏦Bank: $bank
 🌎Country: $country $flag
-⏱TIME: $TIME
-🗓DATE: $DATE
+TIME: $TIME
+DATE: $DATE
 ----------------------------
 📌Checked By ---» @$username
 🔒USER ID: ---» $id
