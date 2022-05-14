@@ -1,5 +1,5 @@
 <?php
-    date_default_timezone_set("Asia/Jakarta");
+    date_default_timezone_set("America/Monterrey");
     //Data From Webhook
     $content = file_get_contents("php://input");
     $update = json_decode($content, true);
@@ -10,6 +10,18 @@
     $username = $update["message"]["from"]["username"];
     $firstname = $update["message"]["from"]["first_name"];
     $start_msg = $_ENV['START_MSG']; 
+/*
+|--------------------------------------------------------------------------
+| Timezone
+|--------------------------------------------------------------------------
+|
+| Current timezone for Logging Activities with time
+| It can be obtained from http://1min.in/content/international/time-zones
+| By Default it's in IST
+|
+*/
+$config['timeZone'] =  $_ENV['TIMEZONE'];
+
 
 if($message == "/start"){
     send_message($chat_id,$message_id, "***Hi $firstname \nUse .bin xxxxxx to Check BIN \nSupport: juanchivox54654@dnmx.org\n$start_msg***");
@@ -47,17 +59,24 @@ if(strpos($message, ".bin") === 0){
  $type = $data['data']['type'];
  $flag = $data['data']['countryInfo']['emoji'];
  $result1 = $data['result'];
+    
+    $timetakeen = (microtime(true) - $startTime);
+            $timetaken = substr_replace($timetakeen, '',4);
+            $startTime = microtime(true); 
 
     if ($result1 == true) {
-    send_message($chat_id,$message_id, "***✅ Valid BIN ✅
+    send_message($chat_id,$message_id, "***------- Bin Info -------
+ ✅ Valid BIN ✅
 💎Bin: $bin
 💳Brand: $brand
 💳Level: $level
-💳Type:$type
+💳Type: $type
 🏦Bank: $bank
 🌎Country: $country $flag
-📌Checked By @$username
-♦Created By: juanchivox54654@dnmx.org✉️ ***");
+----------------------------
+Checked By ---» @$username
+USER ID: ---» $id
+♦Bot By ---» juanchivox54654@dnmx.org✉️ ***");
 
 
     }
