@@ -6,8 +6,7 @@ include __DIR__."/modules/bot.php";
 if(strpos($message, "/start") === 0){
 if(!isBanned($userId) && !isMuted($userId)){
 
-  if($userId == $config['adminID']){
-    $messagesec = "<b>Type /admin to know admin commands</b>";
+
   }
 
     addUser($userId);
