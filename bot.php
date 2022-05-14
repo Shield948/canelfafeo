@@ -8,11 +8,12 @@
     $message = $update["message"]["text"];
     $message_id = $update["message"]["message_id"];
     $id = $update["message"]["from"]["id"];
+    $TIME = date("h:i:sa");
+    $DATE = date("d-m-Y");
     $username = $update["message"]["from"]["username"];
     $firstname = $update["message"]["from"]["first_name"];
     $start_msg = $_ENV['START_MSG']; 
-    $TIME = date("h:i:sa");
-    $DATE = date("d-m-Y");
+
 /*
 |--------------------------------------------------------------------------
 | Timezone
