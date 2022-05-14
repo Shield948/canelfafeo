@@ -1,9 +1,5 @@
 <?php
 
-include __DIR__."/modules/bots/checker/ss.php";
-include __DIR__."/config/variables.php";
-
-
     date_default_timezone_set("America/Monterrey");
     //Data From Webhook
     $content = file_get_contents("php://input");
@@ -31,7 +27,7 @@ $config['timeZone'] =  $_ENV['TIMEZONE'];
 
 
 if($message == "/start"){
-    send_message($chat_id,$message_id, "***Hi $firstname \nUse .bin, xxxxxx to Check BIN \nSupport: juanchivox54654@dnmx.org\n$start_msg***");
+    send_message($chat_id,$message_id, "***Hi $firstname \nUse .bin xxxxxx to Check BIN \nSupport: juanchivox54654@dnmx.org\n$start_msg***");
 }
 
 //Bin Lookup
