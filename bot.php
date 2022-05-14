@@ -31,7 +31,7 @@ $config['timeZone'] =  $_ENV['TIMEZONE'];
 
 
 if($message == "/start"){
-    send_message($chat_id,$message_id, "***Hi $firstname \nUse .bin, /bin xxxxxx to Check BIN \nSupport: juanchivox54654@dnmx.org\n$start_msg***");
+    send_message($chat_id,$message_id, "***Hi $firstname \nUse .bin, xxxxxx to Check BIN \nSupport: juanchivox54654@dnmx.org\n$start_msg***");
 }
 
 //Bin Lookup
@@ -74,8 +74,10 @@ if(strpos($message, ".bin") === 0){
     
     if ($result1 == true) {
         
-    send_message($chat_id,$message_id, "***------- Bin Info -------
- <b>✅ Valid BIN ✅</b>
+    send_message($chat_
+                 
+                 ,$message_id, "***------- Bin Info -------
+ ✅ Valid BIN ✅
 💎Bin: $bin
 💳Brand: $brand
 💳Level: $level
