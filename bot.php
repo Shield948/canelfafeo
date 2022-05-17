@@ -71,7 +71,7 @@ if(strpos($message, ".bin") === 0){
     if ($result1 == true) {
     send_message($chat_id,$message_id, "***------- Bin Info -------
  ✅ Valid BIN ✅
-💎Bin: $bin
+💎Bin: `$bin`
 💳Brand: $brand
 💳Level: $level
 💳Type: $type
@@ -81,7 +81,7 @@ if(strpos($message, ".bin") === 0){
 🗓DATE: $DATE
 ----------------------------
 📌Checked By ---» @$username
-🔒USER ID: ---» $id
+🔒USER ID: ---» `$id`
 ♦Bot By ---» juanchivox54654@dnmx.org✉️ ***");
 
 
